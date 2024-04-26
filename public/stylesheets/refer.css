@@ -1,0 +1,472 @@
+
+/* ************** side bar ********************** */
+
+.side-bar{
+    height: 89vh;
+    width: 32rem;
+    /* border: 1px solid black; */
+    position: absolute;
+    z-index: 1;
+    top: 6rem;
+    padding: 0 0 0 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    
+  }
+.myprofile-option{
+width: 100%;
+  height: 7rem;
+  border-bottom: .8px solid #979595;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.icons{
+  height: 100%;
+  width: 25%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.inner-logo{
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color:#01002E ;
+    font-size: 1.6rem;
+    color: white;
+}
+.inner-logo a{
+    text-decoration: none ;
+    color: white;
+  }
+  .profile-name{
+    height: 100%;
+    width: 75%;
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: -1rem;
+  }
+  .main-profile-name{
+    width: 85%;
+    height: 100%;
+    /* border: 1px solid black; */
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .arrow{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .profile-name a{
+    text-decoration: none;
+    color: #444343;;
+    
+  }
+  
+ 
+
+.arrow a i{
+  color: #534e4e;
+}
+
+/* ************************* nav-bar *************** */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+body{
+  background-color: rgba(199, 193, 193 , .4);
+
+  overflow-x: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+
+.navbar{
+  height: 5rem;
+  width: 100%;
+ /* border-bottom: 1px solid grey; */
+  display: flex;
+
+  
+}
+
+.logo{
+  height:100%;
+  width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  /* paddin; */
+  
+}
+
+.logo img{
+  height: 95%;
+  width: 5rem;
+  mix-blend-mode: darken;
+  margin-left: 1rem;
+  border-radius: 1.3rem;
+}
+
+
+.name{
+  width: 8rem;
+  /* border: 1px solid black; */
+  margin-left: .5rem;
+}
+
+.logo p{
+  font-size: 1.6rem;
+  margin-left: .5rem;
+  font-weight: 550;
+  color: #000000;
+  text-transform: capitalize;
+}
+.all-nav-option{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* border: 1px solid black; */
+
+}
+
+.all-nav-option button{
+  height:4rem ;
+  width: 10rem;
+  border:1px solid black;
+  background-color: white;
+  color:#000000;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 550;
+  margin-right: 3rem;
+  text-transform: capitalize;
+  border-radius: 1rem;
+  
+}
+
+.all-nav-option button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-under-heading{
+  height: 3rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: purple;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  position: relative;
+  z-index: -1;
+  
+}
+.nav-under-heading a{
+  text-decoration: none;
+  color: white;
+  font-weight: 550;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.heading{
+  height: 2rem;
+  width: 100%;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 0 0 0 3rem;
+  color: black;
+  margin-top: 1.5rem;
+  font-weight: 550;
+}
+
+  
+.cash-option{
+  height: 80%;
+  width: 10rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 3rem;
+  margin-top: .7rem;
+  
+}
+
+
+.money-img{
+  height: 100%;
+  width: 40%;
+  background-image: url("/images/money.png");
+  background-size: cover;
+  mix-blend-mode: darken;
+  /* border: 1px solid black; */
+}
+.money-entry{
+  height: 100%;
+  width: 40%;
+  
+}
+
+.cash-name{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  
+}
+
+.plus{
+  height: 100%;
+  width: 20%;
+  font-size: 1.6rem;
+  font-weight: 550;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(160, 154, 154 , .4);
+}
+.plus a {
+  text-decoration: none;
+color: black;
+}
+
+
+.rupees{
+height: 50%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: end;
+font-size: 1.4rem;
+font-weight: 550;
+
+}
+.menu{
+  height: 100%;
+  width: 5rem;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  margin-left: 1rem;
+} 
+
+.menu i{
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: black;
+}
+
+.main-div{
+  height: 60vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+ 
+}
+
+/* **************** end navbar *************** */
+
+.refer-div{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.img{
+    height: 50vh;
+    width: 95%;
+}
+
+.img img{
+    height: 50vh;
+    width: 90vw;
+    mix-blend-mode: darken;
+}
+.bottom-rules{
+    height: 40vh;
+    width: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+.earning{
+    height: 35vh;
+    width: 45rem;
+    border: 1px solid grey;
+    border-radius: .5rem;
+    background: linear-gradient(to left ,  #FF787F , #E0DA48);
+
+}
+
+.earn{
+    font-size: 2.2rem;
+    font-weight: 550;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.refer-friend{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.number-refer{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 2rem;
+
+}
+
+.total-refer{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 1rem;
+}
+
+.total-earning{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 1rem;
+}
+
+.rules{
+    height: 29vh;
+    width: 40rem;
+    border: 1px solid grey;
+    padding: 2rem 2rem ;
+    border-radius: .5rem;
+    background: linear-gradient(to left ,  #FF787F , #E0DA48);
+}
+
+.rules h2{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.first-rule{
+    font-size: 1.6rem; 
+    margin: 2rem 0 0 0 ;   
+}
+.commission{
+    font-size: 1.4rem;
+    color: green;
+    margin: .5rem  0 0 0;
+}
+.second{
+    margin-top: 3.5rem;
+}
+
+.bottom-button{
+  height: 10vh;
+  width: 100%;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* position: fixed;
+  bottom: -2rem; */
+}
+
+button{
+  height: 8vh;
+  width: 110rem;
+  background-color: #01002E;
+  color: white;
+  border-radius: .5rem;
+
+}
+
+button a{
+  font-size: 1.8rem;
+  font-weight: 550;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+.copy-icon{
+  height: 8vh;
+  width: 6rem;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* padding: .5rem .5rem; */
+
+}
+
+.copy-icon i{
+  font-size: 4rem;
+  color: blue;
+
+  /* font-weight: 550; */
+
+
+}
+
+@media screen and (max-width: 450px){
+  .bottom-button{
+    position: relative;
+    top: 25rem;
+  }
+  button{
+    width: 30rem;
+  }
+}
+
+
+
